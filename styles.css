@@ -25,4 +25,59 @@ ul {
     background-color: #1fb98b;
     color: #fff;
 }
-  
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  background-image: url('IMGS/mountain_view_1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+header {
+  background-color: #00ffd0;
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.hero {
+  background-image: url('IMGS/mountain_view_1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 16px 0;
+}
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+p {
+  font-size: 16;
+  margin: 0;
+}
+section {
+  margin-bottom: 32px;
+}
+h2 {
+  font-size: 32px;
+}
+footer {
+  text-align: center;
+  padding: 16px;
+  background-color: #333;
+  color: #fff;
+}
