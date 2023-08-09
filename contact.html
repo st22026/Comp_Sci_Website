@@ -8,16 +8,34 @@
 </head>
 
 <body>
-    <header>
-      <nav>
-      <img src="IMGS/Maunga_Club_white.png" alt="logo" height="250px">
-        <ul>
-          <li><a href="Home.html">Home</a></li>
-          <li><a href="#about page">About</a></li>
-          <li><a href="#accommodation page">Accommodation</a></li>
-          <li><a href="#gallery page">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
+  <header>
+    <nav>
+    <img src="IMGS/Maunga_Club_white.png" alt="logo" height="250px">
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="#about page">About</a></li>
+        <li><a href="#accommodation page">Accommodation</a></li>
+        <li><a href="#gallery page">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
 </body>
+
+<div class = "contact-form">
+  <div class="container">
+      <form action="action_page.php">
+    
+       <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Feedback.." style="height:200px"></textarea> 
+      
+      
+      </form>    
+
+</div>
