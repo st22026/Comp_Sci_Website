@@ -27,7 +27,7 @@ ul {
 }
 
 body {
-  font-family: "Poppins";
+  font-family: "Roboto Condensed";
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -95,7 +95,7 @@ table {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto Condensed";
 }
 
 th {
