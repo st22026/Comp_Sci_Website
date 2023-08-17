@@ -111,7 +111,11 @@ td {
   text-align: center;
 }
 
-tr:nth-child(even) {
+table tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+table td {
   background-color: #f2f2f2;
 }
 
@@ -158,4 +162,42 @@ margin: 0 10px;
 ul.thumb li img{
   border: 4px solid #fff;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5)
+}
+
+.chalets {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: rgba(247, 247, 247, 0.7);;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chalet {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(247, 247, 247, 0.7);
+}
+
+.chalet h3 {
+  color: #333;
+}
+
+.chalet p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.chalet p strong {
+  font-weight: bold;
+}
+
+.About {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: rgba(247, 247, 247, 0.7);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
