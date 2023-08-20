@@ -24,33 +24,35 @@
       </ul>
     </nav>
   </header>
-  
+
   <div class="Imgbox"><img src="IMGS/chalet_exterior.jpg"></div>
   <ul class="thumb">
     <li><a href="IMGS/adult_bedroom.jpg" target="Imgbox"><img src="IMGS/adult_bedroom.jpg" width="120px"></a></li>
     <li><a href="IMGS/chalet_exterior.jpg" target="Imgbox"><img src="IMGS/chalet_exterior.jpg" width="120px"></a></li>
     <li><a href="IMGS/kids_bedroom.jpg" target="Imgbox"><img src="IMGS/kids_bedroom.jpg" width="120px"></a></li>
-    <li><a href="IMGS/maunga_club_cabin.jpg" target="Imgbox"><img src="IMGS/maunga_club_cabin.jpg" width="120px"></a></li>
+    <li><a href="IMGS/maunga_club_cabin.jpg" target="Imgbox"><img src="IMGS/maunga_club_cabin.jpg" width="120px"></a>
+    </li>
     <li><a href="IMGS/kitchen.jpg" target="Imgbox"><img src="IMGS/kitchen.jpg" width="120px"></a></li>
-    <li><a href="IMGS/adult_bedroom_kereru.jpg" target="Imgbox"><img src="IMGS/adult_bedroom_kereru.jpg" width="120px"></a></li>
+    <li><a href="IMGS/adult_bedroom_kereru.jpg" target="Imgbox"><img src="IMGS/adult_bedroom_kereru.jpg"
+          width="120px"></a></li>
     <li><a href="IMGS/hallway.jpg" target="Imgbox"><img src="IMGS/hallway.jpg" width="120px"></a></li>
 
   </ul>
 
-<script> src = "https://code.jquery.com/jquery-migrate-3.4.1.js"</script>
-<script type="text/javascript">
-  $(document).ready(function () {
-    $('.thumb a').click(function (e) {
-      e.preventDefault();
-      var newImageUrl = $(this).attr("href");
-      var imgBox = $('.Imgbox img');
+  <script> src = "https://code.jquery.com/jquery-migrate-3.4.1.js"</script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.thumb a').click(function (e) {
+        e.preventDefault();
+        var newImageUrl = $(this).attr("href");
+        var imgBox = $('.Imgbox img');
 
-      imgBox.fadeOut(200, function () {
-        imgBox.attr("src", newImageUrl).fadeIn(200);
+        imgBox.fadeOut(200, function () {
+          imgBox.attr("src", newImageUrl).fadeIn(200);
+        });
       });
     });
-  });
-</script>
+  </script>
 
- <footer>&copy; Copyright 2023 Manuga Club.</footer>
+  <footer>&copy; Copyright 2023 Manuga Club.</footer>
 </body>
