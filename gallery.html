@@ -37,15 +37,20 @@
 
   </ul>
 
- <script> src = "https://code.jquery.com/jquery-migrate-3.4.1.js"</script>
-    <script type="text/javascript">
-     $(document).ready(function () {
-      $('.thumb a').click(function (e) {
-         e.preventDefault();
-          $('.Imgbox img').attr("src", $(this).attr("href"));
-      })
-         }) 
-    </script>
+<script> src = "https://code.jquery.com/jquery-migrate-3.4.1.js"</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('.thumb a').click(function (e) {
+      e.preventDefault();
+      var newImageUrl = $(this).attr("href");
+      var imgBox = $('.Imgbox img');
+
+      imgBox.fadeOut(200, function () {
+        imgBox.attr("src", newImageUrl).fadeIn(200);
+      });
+    });
+  });
+</script>
 
  <footer>&copy; Copyright 2023 Manuga Club.</footer>
 </body>
