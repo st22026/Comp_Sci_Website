@@ -54,19 +54,54 @@ input[type=text], select, textarea {
   border-radius: 5px;
   cursor: pointer;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    background-color: #1fb98b;
+    color: #ffffff;
+}
+
+body {
+background-image: url('IMGS/mountain_view_dark.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
 </style>
 
 <body>
   <header>
     <nav>
-    <img src="IMGS/Maunga_Club_white.png" alt="logo" height="250px">
+    <img src="IMGS/Maunga_Club_white.png" alt="logo" height="150px">
       <ul>
         <li><a href="Home.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="accommodation.html">Accommodation</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="contact.html">Contact</a></li>
-        </ul>
+      </ul>
       </nav>
     </header>
    
