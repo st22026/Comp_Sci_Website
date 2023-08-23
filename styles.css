@@ -49,6 +49,7 @@ main {
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
 }
 
 .hero {
@@ -58,6 +59,7 @@ main {
   color: #fff;
   text-align: center;
   padding: 16px 0;
+  border-radius: 25px;
 }
 
 .hero-content {
@@ -88,6 +90,7 @@ footer {
   padding: 16px;
   background-color: #333;
   color: #fff;
+  border-radius: 25px;
 }
 
 table {
