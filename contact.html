@@ -94,6 +94,16 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  input[type=file] {
+  width: 350px;
+  max-width: 100%;
+  color: #444;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #555;
+}
 </style>
 
 <body>
@@ -122,6 +132,9 @@
 
         <label for="Email">Email</label>
         <input type="text" id="Email" name="Email" placeholder="Your Email..">
+
+        <label for="Identity Confirmation/">Identity Confirmation E.g: Passport, Drivers Licence</label>
+        <input type="file" accept="image/*">
 
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Message.." style="height:200px"></textarea>
